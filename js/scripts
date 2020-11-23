@@ -1,0 +1,146 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+// Nav script // 
+
+$( document ).ready(function() {
+  console.log( 'ready!' );
+	
+	$('.main-nav a').on( "click", function() {
+		
+		var t = $( this ).text();
+				t = t.toLowerCase();
+
+			  console.log( t );
+
+		
+				$('.caption').removeClass('caption-flex').addClass('hidden');
+				$('.'+t).removeClass('hidden').addClass('caption-flex');
+
+
+				
+				$('.main-nav a').removeClass('border-bottom');
+				$(this).addClass('border-bottom');
+		
+		return false;
+	});
+	
+	$('.logo a').on( "click", function() {
+		
+				$('.caption').removeClass('caption-flex').addClass('hidden');
+				$('.main-nav a').removeClass('border-bottom');
+		
+		return false;
+	});
+});
+
+// Background movement // 
+
+$(document).ready(function() {
+	var movementStrength = 25;
+	var height = movementStrength / $(window).height();
+	var width = movementStrength / $(window).width();
+	$(".wrapper").mousemove(function(e){
+	          var pageX = e.pageX - ($(window).width() / .5);
+	          var pageY = e.pageY - ($(window).height() / .5);
+	          var newvalueX = width * pageX * -6 - .5;
+	          var newvalueY = height * pageY * -6 - .5;
+	          $('.wrapper').css("background-position", newvalueX+"px     "+newvalueY+"px");
+	});
+});
+
+
+// $(document).ready(function(){
+//     $('.poster').hover(function() {
+
+
+//         $(this).addClass('transition');
+ 
+//     }, function() {
+//         $(this).removeClass('transition');
+//     });
+//   });
+
+$(document).ready(function(){
+
+		var mouse = {x:0,y:0},
+            offset = {x:-500, y:-300};
+        $('.inline').on('mouseenter', function() {
+            var src = $(this).attr('src');
+            $('.popover').html('<img src="'+src+'">').show();
+            offset.x = -$('.popover').width()/2;
+            clearTimeout(this.timer);
+        }).on('mouseleave', function() {
+            this.timer = setTimeout(function() {
+                $('.popover').hide();
+            }, 10);
+        });
+        document.addEventListener('mousemove', function(e){
+            mouse.x = e.pageX;
+            mouse.y = e.pageY;
+            $('.popover').css({
+                left: (mouse.x + offset.x) + 'px',
+                top: (mouse.y + offset.y) + 'px',
+
+                });
+        });
+
+});
+
+//* Thanks EDOUARD + LEARNING GARDENS FOR inline/popover SCRIPT HELP *// 
+
+// $(document).ready(function(){
+
+// 	$('.closed-caption').hover(function(){
+// 		$(this).text("No one recalled who was there.");
+// 		console.log('hovering!');
+
+// 	}, function() {
+// 		$(this).text("No one remembered who stood where.");
+// 	});
+
+// 	$('.closed-caption.outline').hover(function(){
+// 		$(this).text("No one recalled who was there.");
+// 		console.log('hovering!');
+		
+// 	}, function() {
+// 		$(this).text("No one remembered who stood where.");
+// 	});
+
+
+// });
+
+
+
+
+}
+/*
+     FILE ARCHIVED ON 07:12:56 Jun 21, 2020 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 09:11:34 Nov 23, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 94.308 (3)
+  PetaboxLoader3.datanode: 105.369 (4)
+  CDXLines.iter: 23.111 (3)
+  exclusion.robots.policy: 0.122
+  exclusion.robots: 0.132
+  load_resource: 222.053
+  captures_list: 127.383
+  RedisCDXSource: 4.816
+  esindex: 0.01
+  PetaboxLoader3.resolve: 168.364
+*/

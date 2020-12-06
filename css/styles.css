@@ -52,7 +52,7 @@ a, a:active, a:link, a:hover {
 
 @font-face {
   font-family: GT Pressura Regular;
-  src: url(./css/GT-Pressura-Regular.css);
+  src: url(https://xavierconnelly.github.io/inter-val/css/GT-Pressura-Regular.css);
 }
 
 body { 
@@ -61,7 +61,7 @@ body {
 
 @font-face {
   font-family: GT Pressura Regular Italic;
-  src: url(./css/GT-Pressura-Regular-Italic.css);
+  src: url(https://xavierconnelly.github.io/inter-val/css/GT-Pressura-Regular-Italic.css);
 }
 
 em {

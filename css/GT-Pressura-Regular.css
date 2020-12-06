@@ -1,29 +1,8 @@
 @font-face {
     font-family: 'GT Pressura Regular';
-    src: 	url('/web/20200621071255im_/http://www.inter-val.org/fonts/GT-Pressura-Regular-Web/GT-Pressura-Regular.eot') format('eot'), 
-    			url('/web/20200621071255im_/http://www.inter-val.org/fonts/GT-Pressura-Regular-Web/GT-Pressura-Regular.woff') format('woff'), 
-					url('/web/20200621071255im_/http://www.inter-val.org/fonts/GT-Pressura-Regular-Web/GT-Pressura-Regular.ttf') format('truetype');
+    src: 	url('fonts/GT-Pressura-Regular-Web/GT-Pressura-Regular.eot') format('eot'), 
+    			url('/fonts/GT-Pressura-Regular-Web/GT-Pressura-Regular.woff') format('woff'), 
+					url('fonts/GT-Pressura-Regular-Web/GT-Pressura-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-/*
-     FILE ARCHIVED ON 07:12:55 Jun 21, 2020 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 09:11:30 Nov 23, 2020.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
-/*
-playback timings (ms):
-  captures_list: 170.859
-  exclusion.robots: 0.133
-  exclusion.robots.policy: 0.123
-  RedisCDXSource: 2.581
-  esindex: 0.01
-  LoadShardBlock: 144.086 (3)
-  PetaboxLoader3.datanode: 202.119 (4)
-  CDXLines.iter: 20.793 (3)
-  load_resource: 125.218
-  PetaboxLoader3.resolve: 25.253
-*/

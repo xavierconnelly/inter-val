@@ -125,7 +125,7 @@ p.small{
 .wrapper{ 
 	width:100%; 
 	height:100vh; 
-	background-image:url(https://xavierconnelly.github.io/inter-val/images/background_02.jpg); 
+	background-image:url(./images/background_02.jpg); 
 	background-repeat:none; 
 	background-size:cover; 
 	background-position:center;  
@@ -514,9 +514,6 @@ img.inline {
 
 }
 
-
-/*
-
 @media only screen and (max-width: 768px) {
 	
 	input { 
@@ -608,16 +605,6 @@ img.inline {
 }
 
 
-
-*/
-/*
-     FILE ARCHIVED ON 07:12:54 Jun 21, 2020 AND RETRIEVED FROM THE
-     INTERNET ARCHIVE ON 09:11:30 Nov 23, 2020.
-     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
-
-     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
-     SECTION 108(a)(3)).
-*/
 /*
 playback timings (ms):
   CDXLines.iter: 21.865 (3)

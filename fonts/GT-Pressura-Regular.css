@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'GT Pressura Regular';
     src: 	url('/GT-Pressura-Regular.eot') format('eot'), 
-    		url('/GT-Pressura-Regular.woff') format('woff'), 
-		url('/GT-Pressura-Regular.ttf') format('truetype');
+    		url('https://xavierconnelly.github.io/inter-val/fonts/GT-Pressura-Regular.woff') format('woff'), 
+			url('/GT-Pressura-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }

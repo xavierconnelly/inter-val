@@ -56,26 +56,6 @@ em 	{
 	font-family: 'GT Pressura Regular Italic'; 
 }
 
-*/
-@font-face {
-  font-family: GT Pressura Regular;
-  src: url(/fonts/GT-Pressura-Regular.woff);
-}
-
-body { 
-	font-family: 'GT Pressura Regular'; color:#363636; 
-}
-
-@font-face {
-  font-family: GT Pressura Regular Italic;
-  src: url(https://xavierconnelly.github.io/inter-val/css/GT-Pressura-Regular-Italic.css);
-}
-
-em {
-  font-family: GT Pressura Regular Italic;
-}
-*/
-
 .short-text p { 
 	font-size: 1em; 
 	line-height:1em; 
@@ -615,17 +595,4 @@ img.inline {
 	}
 }
 
-*/
-/*
-playback timings (ms):
-  CDXLines.iter: 21.865 (3)
-  captures_list: 143.978
-  RedisCDXSource: 0.854
-  esindex: 0.012
-  exclusion.robots: 0.205
-  LoadShardBlock: 116.519 (3)
-  PetaboxLoader3.datanode: 106.75 (4)
-  PetaboxLoader3.resolve: 72.327 (2)
-  exclusion.robots.policy: 0.189
-  load_resource: 156.486
 */
